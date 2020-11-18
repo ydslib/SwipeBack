@@ -8,16 +8,16 @@
 **Step 1.** Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 ```java
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://www.jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+	...
+	maven { url 'https://www.jitpack.io' }
+    }
+}
 ```
 **Step 2.** Add the dependency
 ```java
 dependencies {
-	   implementation 'com.github.ydslib:SwipeBack:Tag'
+    implementation 'com.github.ydslib:SwipeBack:1.0.0'
 }
 ```
